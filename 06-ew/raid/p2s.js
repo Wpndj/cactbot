@@ -264,7 +264,7 @@ Options.Triggers.push({
                 // cactbot-builtin-response
                 output.responseOutputStrings = {
                     squareAcross: {
-                        en: '#${num} Square, go across',
+                        en: '#${num} Square, go away',
                         de: '#${num} Viereck, geh gegenüber',
                         fr: '#${num} Carré, allez à l\'opposé',
                         ja: '四角 #${num}：ボスの対角へ',
@@ -272,7 +272,7 @@ Options.Triggers.push({
                     },
                     // Trying not to confuse with boss/across
                     squareBoss: {
-                        en: '#${num} Square, boss tile',
+                        en: '#${num} Square, Under boss',
                         de: '#${num} Viereck, Boss Fläche',
                         fr: '#${num} Carré, case du boss',
                         ja: '四角 #${num}：ボスの後ろへ',
